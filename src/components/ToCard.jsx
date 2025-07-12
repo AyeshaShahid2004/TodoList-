@@ -5,6 +5,7 @@ export default function ToCard(props) {
   return (
     <li className='todoItem'>
       {/* i am greattt */}
+      {/* i am not a idiot */}
                 {children} 
                 <div className='actionContainer'>
                   <button onClick ={() => {
