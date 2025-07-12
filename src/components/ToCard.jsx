@@ -4,8 +4,7 @@ export default function ToCard(props) {
   const {children, handleDeleteTodo, index, handleEditTodo} = props
   return (
     <li className='todoItem'>
-      {/* i am greattt */}
-      {/* i am not a idiot */}
+    
                 {children} 
                 <div className='actionContainer'>
                   <button onClick ={() => {
