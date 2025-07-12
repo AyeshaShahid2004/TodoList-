@@ -5,7 +5,6 @@ export default function TodoList(props) {
    const {todos} = props
   return (
     <ul className='main'>
-      {/* hy */}
         {todos.map((todo, todoIndex)=> {
             return (
                 <ToCard{...props} key={todoIndex} index=
